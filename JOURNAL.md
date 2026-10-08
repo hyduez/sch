@@ -14,17 +14,15 @@
 
 ## Contents
 
-1. [2026-10-08 – Hi!!!! I was planning to make a reel, but I'm running out of time (I thought the deadline was s](#2026-10-08-hi-i-was-planning-to-make-a-reel-but-im-running-o)
+1. [2026-10-08 – Hi!!!! I was planning to make a reel, but I'm running out of time 😭 (#gatedbydaven ✌️), so I have to be quick. This was yesterday (Wednesday); before half-life started, I did the warm-up week to get](#2026-10-08-hi-i-was-planning-to-make-a-reel-but-im-running-o)
 
 ## Design
 
-### 2026-10-08 – Hi!!!! I was planning to make a reel, but I'm running out of time (I thought the deadline was s
+### 2026-10-08 – Hi!!!! I was planning to make a reel, but I'm running out of time 😭 (#gatedbydaven ✌️), so I have to be quick. This was yesterday (Wednesday); before half-life started, I did the warm-up week to get
 
 **3h**
 
-Hi!!!! I was planning to make a reel, but I'm running out of time (I thought the deadline was s
-
-unday 😭 #gatedbydaven ✌️), so I have to be quick. This was yesterday (Wednesday); before half-life started, I did the warm-up week to get into hardware, which is why I’m not working on starbie during this first week of PCB design. So, I decided to build a USB hub that I named SCH (for Super Cool Hub). I’ve already put together a basic BOM, since that’s my main hurdle. Being in Ecuador, electronic components and hardware are quite expensive here, as are import duties. How I'm actually building it on week 5, I've to think right about it.
+Hi!!!! I was planning to make a reel, but I'm running out of time 😭 (#gatedbydaven ✌️), so I have to be quick. This was yesterday (Wednesday); before half-life started, I did the warm-up week to get into hardware, which is why I’m not working on starbie during this first week of PCB design. So, I decided to build a USB hub that I named SCH (for Super Cool Hub). I’ve already put together a basic BOM, since that’s my main hurdle. Being in Ecuador, electronic components and hardware are quite expensive here, as are import duties. How I'm actually building it on week 5, I've to think right about it.
 
 ![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/gIDkxfUvN4uQnTurIE7oSxqjiiMUakDr/56845ac98f1a408eafbb1ad958e13aa0f606faee21664500da2111abc9532518.png)
 
