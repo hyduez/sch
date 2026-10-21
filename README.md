@@ -13,6 +13,14 @@ You can see a lot of stuff that maybe u dont know where to start. But, as always
 > [!IMPORTANT]
 > Notice that this schematic is working with an ESP32 S3 WROOM, that's the reason why there's an AMS1117-3.3 that decrease the voltage from 5V to 3.3V; that's not neccesary with ESP32 S3 Devkit, since it brings its own regulator.
 
+> [!TIP]
+> Machine-readable fabrication outputs (Gerbers, drill, BOM CSV, pick and place,
+> DRC/ERC) live in [`fabrication/`](fabrication), along with a
+> [parts cross-check](fabrication/parts-check.md) against the BOM below. Before
+> ordering, note that the PCB uses the bare CH334F QFN-24 and the bare
+> ESP32-S3-WROOM-1 module, not the Adafruit breakout / devkit listed in
+> [`BOM.md`](BOM.md).
+
 The idea is that u'd add another coproccesor and create an useful artcraft hardware made by your hands, something to be proud. It's cool. You're not flexing something u bought on a minimarket, it's something u built and that's what matters.
 
 ## Index
@@ -20,6 +28,7 @@ The idea is that u'd add another coproccesor and create an useful artcraft hardw
 - Inspiration & References
 - Data Sheets & Components
 - PCB Design
+- Fabrication Files
 
 ## Inspiration & References
 This is my first Hardware project strictly speaking. Instead of following guides, tutorials, projects pre-made; I decided to try it on my own. And here is how I got it: first, u need theory. It migh sounds cliche, but it's neccesary; u cannot start a journey without knowning how to start. Second, u must put into practice, and expand upon, what you DON'T KNOW; u might understand the fundamentals, but u cannot stop there, u've to be willing to try new and unfamiliar things. It seems too hard to make it? That doesn't matter, u're way ahead of it and u MUST be.
@@ -62,3 +71,23 @@ I have to be honest, it was kinda messy, but it was part of my learning and I'm 
 
 I also hope to build this project on week 6 and bring it to live, wait some updates on it anyways on the next days/weeks/months. I'm so excited to keep learning and participating on Half Life!! :)
 
+## Fabrication Files
+
+Everything a fab house or an assembly service needs is generated from the KiCad
+project and checked in under [`fabrication/`](fabrication):
+
+| What | File |
+| --- | --- |
+| Gerbers + drill (upload this to the PCB house) | [`fabrication/sch-gerbers.zip`](fabrication/sch-gerbers.zip) |
+| Plain Gerbers (X2, 9 layers) | [`fabrication/gerbers/`](fabrication/gerbers) |
+| Drill files (Excellon, mm, PTH/NPTH split) + maps | [`fabrication/drill/`](fabrication/drill) |
+| Bill of materials (CSV, grouped by value) | [`fabrication/bom/sch-bom.csv`](fabrication/bom/sch-bom.csv) |
+| Pick and place / centroid (CSV, mm) | [`fabrication/pick-and-place/`](fabrication/pick-and-place) |
+| DRC + ERC + board stats | [`fabrication/reports/`](fabrication/reports) |
+| Schematic & PCB PDFs | [`fabrication/plots/`](fabrication/plots) |
+
+The board is 2 layers, 1.6 mm, 81.1 x 75.6 mm, with 22 footprints (18 SMD, 4
+THT), all placed on the front side, so it can be assembled with a single-side
+stencil. [`BOM.md`](BOM.md) is the shopping list from Half Life with vendor
+links; the CSV in `fabrication/bom/` is the machine-readable version generated
+from the schematic, so the two are worth cross-checking before ordering.

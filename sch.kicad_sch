@@ -3251,6 +3251,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "2026-10-11"
 		(exclude_from_sim no)
@@ -8047,6 +8162,398 @@
 			)
 		)
 	)
+	(no_connect
+		(at 48.26 81.28)
+		(uuid "156954eb-1ed7-4996-84f4-aec9d5ae4cc8")
+	)
+	(no_connect
+		(at 48.26 83.82)
+		(uuid "e655a259-8449-44c0-a0ad-9bd041910a62")
+	)
+	(no_connect
+		(at 48.26 86.36)
+		(uuid "704f9006-0a60-4cd3-b809-97cc56fc9490")
+	)
+	(no_connect
+		(at 48.26 88.9)
+		(uuid "c81456d4-ac92-46f0-bb7b-3bf0b223f9cf")
+	)
+	(no_connect
+		(at 48.26 91.44)
+		(uuid "0e6c7b3d-5dfd-4ca6-aadb-e02a8d0b7141")
+	)
+	(no_connect
+		(at 48.26 93.98)
+		(uuid "ba667ec9-446f-49fe-b621-727eff6053c8")
+	)
+	(no_connect
+		(at 48.26 96.52)
+		(uuid "f58a21f7-51c7-4d16-885d-e0bf54a76495")
+	)
+	(no_connect
+		(at 48.26 99.06)
+		(uuid "26eab1cc-5da6-4fea-8f93-fae5f8276ab4")
+	)
+	(no_connect
+		(at 48.26 101.6)
+		(uuid "6f161761-88f4-43fe-92b6-c001b79cf70a")
+	)
+	(no_connect
+		(at 48.26 104.14)
+		(uuid "b955ce05-7763-4602-9622-14b74d48ff62")
+	)
+	(no_connect
+		(at 48.26 106.68)
+		(uuid "b5d76716-4c24-440f-8349-a53fe963a464")
+	)
+	(no_connect
+		(at 48.26 109.22)
+		(uuid "0256201f-f650-43a6-a620-e3a2d0e0ac2f")
+	)
+	(no_connect
+		(at 48.26 111.76)
+		(uuid "8057020e-4cb2-401e-b229-6d958642f7a7")
+	)
+	(no_connect
+		(at 48.26 114.3)
+		(uuid "1de21d45-baab-4689-9ecf-9d8f3fc8d112")
+	)
+	(no_connect
+		(at 48.26 116.84)
+		(uuid "69a96a6f-b9fc-46b3-8d93-31a28bdd8ccc")
+	)
+	(no_connect
+		(at 48.26 119.38)
+		(uuid "e0802139-d321-4aa4-b0a8-93b60d11d560")
+	)
+	(no_connect
+		(at 78.74 78.74)
+		(uuid "4495652c-f2ab-4525-bfd8-d4b47f3a9bcd")
+	)
+	(no_connect
+		(at 78.74 81.28)
+		(uuid "3039cf71-0b1e-4092-ab88-7c013b8fff7e")
+	)
+	(no_connect
+		(at 78.74 88.9)
+		(uuid "af972de4-d2db-4ec7-b13c-6adaa57f379b")
+	)
+	(no_connect
+		(at 78.74 91.44)
+		(uuid "00e82a1f-6af3-428b-ac5f-c969c00fec08")
+	)
+	(no_connect
+		(at 78.74 93.98)
+		(uuid "9b7f8c11-9ef5-4439-a0d7-ae3816c4411a")
+	)
+	(no_connect
+		(at 78.74 96.52)
+		(uuid "d8df7025-6e06-4f8d-9eb9-0331dbdbbf31")
+	)
+	(no_connect
+		(at 78.74 99.06)
+		(uuid "ad545dd2-d963-42cc-b62c-c87d2cc46f4b")
+	)
+	(no_connect
+		(at 78.74 101.6)
+		(uuid "957d70c2-215f-46db-9637-c759d7ade929")
+	)
+	(no_connect
+		(at 78.74 104.14)
+		(uuid "53781b0b-c5a9-4f4a-8ace-8b639870085b")
+	)
+	(no_connect
+		(at 78.74 106.68)
+		(uuid "6163622e-3957-4750-a405-8e92e6f59565")
+	)
+	(no_connect
+		(at 78.74 109.22)
+		(uuid "85503196-db96-47d3-8d84-16cae7d2e88d")
+	)
+	(no_connect
+		(at 78.74 111.76)
+		(uuid "f7157e52-79df-4fc2-8d70-96ae4107e1ed")
+	)
+	(no_connect
+		(at 78.74 114.3)
+		(uuid "36e7ed4e-0e23-4a47-b325-1f7d05afd965")
+	)
+	(no_connect
+		(at 78.74 116.84)
+		(uuid "67eeb159-0fef-42f0-902a-4b80103c7130")
+	)
+	(no_connect
+		(at 78.74 119.38)
+		(uuid "b447d402-0be1-479a-a89b-0e9a38d735a7")
+	)
+	(no_connect
+		(at 142.24 48.26)
+		(uuid "f7f3c498-998c-4828-a129-255953831399")
+	)
+	(no_connect
+		(at 142.24 38.1)
+		(uuid "f779d67c-eeb3-4849-9687-7a4f32a67e00")
+	)
+	(no_connect
+		(at 142.24 60.96)
+		(uuid "063b3012-1c89-4a25-8527-955c829e6858")
+	)
+	(no_connect
+		(at 142.24 63.5)
+		(uuid "3231f553-bcf9-493d-bc5e-8afb6c841544")
+	)
+	(no_connect
+		(at 142.24 55.88)
+		(uuid "1b76237a-ff2f-4137-adcc-2d77d870040e")
+	)
+	(no_connect
+		(at 142.24 58.42)
+		(uuid "9fd53955-492f-4609-a8af-d80e8a78b0e1")
+	)
+	(no_connect
+		(at 189.23 78.74)
+		(uuid "ac79c081-3498-43e7-97d0-73751e945a41")
+	)
+	(no_connect
+		(at 189.23 68.58)
+		(uuid "81662a0b-2b42-4e65-aa06-08cccf86989c")
+	)
+
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 63.5 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dca67294-8050-4955-a922-e432c79a558a")
+		(property "Reference" "#FLG01"
+			(at 63.5 127.635 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 63.5 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 63.5 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "26829354-6e09-47b0-9c7c-b17fc2ead0fb")
+		)
+		(instances
+			(project "sch"
+				(path "/9a83e8ca-0edd-450b-bfa6-9e858866668c"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 156.21 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "332e8394-49c9-4df7-b650-6dca983e7933")
+		(property "Reference" "#FLG02"
+			(at 156.21 98.425 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 156.21 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 156.21 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e6b0a88b-3fb6-4610-abb6-9ff1032fd7e5")
+		)
+		(instances
+			(project "sch"
+				(path "/9a83e8ca-0edd-450b-bfa6-9e858866668c"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 109.22 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7adff52a-16d0-4314-b5c0-7a612f7386b7")
+		(property "Reference" "#FLG03"
+			(at 109.22 170.815 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 109.22 168.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 109.22 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d6933d6b-8718-48a5-88e7-920689ea79d2")
+		)
+		(instances
+			(project "sch"
+				(path "/9a83e8ca-0edd-450b-bfa6-9e858866668c"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+
 	(sheet_instances
 		(path "/"
 			(page "1")
